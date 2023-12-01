@@ -1,0 +1,14 @@
+D:\Oktatók\MM\Csharp\projectOne\projectOne\bin\Debug\net7.0\projectOne.exe
+D:\Oktatók\MM\Csharp\projectOne\projectOne\bin\Debug\net7.0\projectOne.deps.json
+D:\Oktatók\MM\Csharp\projectOne\projectOne\bin\Debug\net7.0\projectOne.runtimeconfig.json
+D:\Oktatók\MM\Csharp\projectOne\projectOne\bin\Debug\net7.0\projectOne.dll
+D:\Oktatók\MM\Csharp\projectOne\projectOne\bin\Debug\net7.0\projectOne.pdb
+D:\Oktatók\MM\Csharp\projectOne\projectOne\obj\Debug\net7.0\projectOne.GeneratedMSBuildEditorConfig.editorconfig
+D:\Oktatók\MM\Csharp\projectOne\projectOne\obj\Debug\net7.0\projectOne.AssemblyInfoInputs.cache
+D:\Oktatók\MM\Csharp\projectOne\projectOne\obj\Debug\net7.0\projectOne.AssemblyInfo.cs
+D:\Oktatók\MM\Csharp\projectOne\projectOne\obj\Debug\net7.0\projectOne.csproj.CoreCompileInputs.cache
+D:\Oktatók\MM\Csharp\projectOne\projectOne\obj\Debug\net7.0\projectOne.dll
+D:\Oktatók\MM\Csharp\projectOne\projectOne\obj\Debug\net7.0\refint\projectOne.dll
+D:\Oktatók\MM\Csharp\projectOne\projectOne\obj\Debug\net7.0\projectOne.pdb
+D:\Oktatók\MM\Csharp\projectOne\projectOne\obj\Debug\net7.0\projectOne.genruntimeconfig.cache
+D:\Oktatók\MM\Csharp\projectOne\projectOne\obj\Debug\net7.0\ref\projectOne.dll
