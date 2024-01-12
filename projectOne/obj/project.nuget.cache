@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ePmI2zUnmUTydrqKDhRGcJWOpRDvc1lPyPwdubxUwYjai5pgcTL5D53WfaRyMl/VXcDo/4QeQzAjiSI/kHBiGg==",
+  "dgSpecHash": "JAqT/m4s3AeGaYBqF47p3l90NryW3eGgDcZa15uR4wi8pbec6CuuXTZ3tb+xsPJ3f/R3A64GlcO3W2Ku3RFiaQ==",
   "success": true,
-  "projectFilePath": "D:\\Oktatók\\MM\\Csharp\\projectOne\\projectOne\\projectOne.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\tanulo\\Documents\\GitHub\\ProjectRufus\\projectOne\\projectOne.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tanulo\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\tanulo\\.nuget\\packages\\system.drawing.common\\8.0.0\\system.drawing.common.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
