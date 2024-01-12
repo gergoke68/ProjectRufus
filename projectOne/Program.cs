@@ -87,5 +87,5 @@ void ConsoleWriteImage(Bitmap source)
     Console.ResetColor();
 }
 
-Bitmap bmpSrc = new(@"D:\forest.png", true);
+Bitmap bmpSrc = new(@"./forest.png", true);
 ConsoleWriteImage(bmpSrc);
