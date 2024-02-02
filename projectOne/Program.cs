@@ -1,8 +1,9 @@
-﻿using System;
-using System.Drawing;
+﻿using System.Drawing;
 
 Menu();
-static void Menu()
+string playerName = "";
+bool isMiloWithUs = false;
+void Menu()
 {
 
 Console.WriteLine("\r\n ('-. .-.   ('-.                      .-') _  .-') _                                        .-') _    ('-. .-.   ('-.         _ .-') _     ('-.     _  .-')  .-. .-')           ('-.                   ('-.    .-')    \r\n( OO )  /  ( OO ).-.                 ( OO ) )(  OO) )                                      (  OO) )  ( OO )  / _(  OO)       ( (  OO) )   ( OO ).-.( \\( -O ) \\  ( OO )         ( OO ).-.             _(  OO)  ( OO ).  \r\n,--. ,--.  / . --. / ,--. ,--.   ,--./ ,--,' /     '._        .-'),-----.    ,------.      /     '._ ,--. ,--.(,------.       \\     .'_   / . --. / ,------. ,--. ,--.         / . --. /  ,----.    (,------.(_)---\\_) \r\n|  | |  |  | \\-.  \\  |  | |  |   |   \\ |  |\\ |'--...__)      ( OO'  .-.  '('-| _.---'      |'--...__)|  | |  | |  .---'       ,`'--..._)  | \\-.  \\  |   /`. '|  .'   /         | \\-.  \\  '  .-./-')  |  .---'/    _ |  \r\n|   .|  |.-'-'  |  | |  | | .-') |    \\|  | )'--.  .--'      /   |  | |  |(OO|(_\\          '--.  .--'|   .|  | |  |           |  |  \\  '.-'-'  |  | |  /  | ||      /,       .-'-'  |  | |  |_( O- ) |  |    \\  :` `.  \r\n|       | \\| |_.'  | |  |_|( OO )|  .     |/    |  |         \\_) |  |\\|  |/  |  '--.          |  |   |       |(|  '--.        |  |   ' | \\| |_.'  | |  |_.' ||     ' _)       \\| |_.'  | |  | .--, \\(|  '--.  '..`''.) \r\n|  .-.  |  |  .-.  | |  | | `-' /|  |\\    |     |  |           \\ |  | |  |\\_)|  .--'          |  |   |  .-.  | |  .--'        |  |   / :  |  .-.  | |  .  '.'|  .   \\          |  .-.  |(|  | '. (_/ |  .--' .-._)   \\ \r\n|  | |  |  |  | |  |('  '-'(_.-' |  | \\   |     |  |            `'  '-'  '  \\|  |_)           |  |   |  | |  | |  `---.       |  '--'  /  |  | |  | |  |\\  \\ |  |\\   \\         |  | |  | |  '--'  |  |  `---.\\       / \r\n`--' `--'  `--' `--'  `-----'    `--'  `--'     `--'              `-----'    `--'             `--'   `--' `--' `------'       `-------'   `--' `--' `--' '--'`--' '--'         `--' `--'  `------'   `------' `-----'  \r\n");
@@ -17,58 +18,110 @@ switch (menu_opt)
         NewGameStart();
         break;
     case 6:
-        System.Environment.Exit(0);
+        Environment.Exit(0);
         break;
 }
 
 }
 
-
-
-
-static void NewGameStart()
+void NewGameStart()
 {
     Console.Clear();
-    Console.WriteLine("blablahblah some story");
+    Console.WriteLine("What's your name?");
+    Console.WriteLine();
+    playerName = Console.ReadLine();
+    Console.WriteLine();
+
+
+
+    Console.WriteLine("You woke up in your mother's house.");
+    Console.WriteLine("It was a strangely quiet morning in Berlin.");
+    Console.WriteLine("A few days ago the doctor took your mom to the hospital, you should pay her a visit soon.");
+    Console.WriteLine();
+    Console.WriteLine("Doc told us not to go but who is he to tell us what to do.");
+    Tutorial();
 }
 
-int[] cColors = { 0x000000, 0x000080, 0x008000, 0x008080, 0x800000, 0x800080, 0x808000, 0xC0C0C0, 0x808080, 0x0000FF, 0x00FF00, 0x00FFFF, 0xFF0000, 0xFF00FF, 0xFFFF00, 0xFFFFFF };
-
-void ConsoleWritePixel(Color cValue)
+void Tutorial()
 {
-    Color[] cTable = cColors.Select(x => Color.FromArgb(x)).ToArray();
-    char[] rList = new char[] { (char)9617, (char)9618, (char)9619, (char)9608 }; // 1/4, 2/4, 3/4, 4/4
-    int[] bestHit = new int[] { 0, 0, 4, int.MaxValue }; //ForeColor, BackColor, Symbol, Score
-
-    for (int rChar = rList.Length; rChar > 0; rChar--)
+    Console.WriteLine("Get bro to come w u");
+    Console.WriteLine("Y/N");
+    string choice = Console.ReadLine();
+    if (choice.ToUpper() == "Y")
     {
-        for (int cFore = 0; cFore < cTable.Length; cFore++)
+        Console.WriteLine("Bro not home anyway");
+
+        Console.WriteLine("Milo (your friend) comes over and offers you he'll come with you of you help him get some mushrooms");
+        Console.WriteLine("Will you help him? (Y/N)");
+        choice = Console.ReadLine();
+
+        if (choice.ToUpper() == "Y")
         {
-            for (int cBack = 0; cBack < cTable.Length; cBack++)
+            MushroomMiniGame();
+        }
+        else
+        {
+
+        }
+    }
+    else
+    {
+        Console.WriteLine("Milo (your friend) comes over and offers you he'll come with you of you help him get some mushrooms");
+        Console.WriteLine("Will you help him? (Y/N)");
+        choice = Console.ReadLine();
+
+        if (choice.ToUpper() == "Y")
+        {
+            MushroomMiniGame();
+        }
+        else
+        {
+
+        }
+    }
+}
+void MushroomMiniGame()
+    {
+
+    }
+/*
+
+
+    int[] cColors = { 0x000000, 0x000080, 0x008000, 0x008080, 0x800000, 0x800080, 0x808000, 0xC0C0C0, 0x808080, 0x0000FF, 0x00FF00, 0x00FFFF, 0xFF0000, 0xFF00FF, 0xFFFF00, 0xFFFFFF };
+
+    void ConsoleWritePixel(Color cValue)
+    {
+        Color[] cTable = cColors.Select(x => Color.FromArgb(x)).ToArray();
+        char[] rList = new char[] { (char)9617, (char)9618, (char)9619, (char)9608 }; // 1/4, 2/4, 3/4, 4/4
+        int[] bestHit = new int[] { 0, 0, 4, int.MaxValue }; //ForeColor, BackColor, Symbol, Score
+
+        for (int rChar = rList.Length; rChar > 0; rChar--)
+        {
+            for (int cFore = 0; cFore < cTable.Length; cFore++)
             {
-                int R = (cTable[cFore].R * rChar + cTable[cBack].R * (rList.Length - rChar)) / rList.Length;
-                int G = (cTable[cFore].G * rChar + cTable[cBack].G * (rList.Length - rChar)) / rList.Length;
-                int B = (cTable[cFore].B * rChar + cTable[cBack].B * (rList.Length - rChar)) / rList.Length;
-                int iScore = (cValue.R - R) * (cValue.R - R) + (cValue.G - G) * (cValue.G - G) + (cValue.B - B) * (cValue.B - B);
-                if (!(rChar > 1 && rChar < 4 && iScore > 50000)) // rule out too weird combinations
+                for (int cBack = 0; cBack < cTable.Length; cBack++)
                 {
-                    if (iScore < bestHit[3])
+                    int R = (cTable[cFore].R * rChar + cTable[cBack].R * (rList.Length - rChar)) / rList.Length;
+                    int G = (cTable[cFore].G * rChar + cTable[cBack].G * (rList.Length - rChar)) / rList.Length;
+                    int B = (cTable[cFore].B * rChar + cTable[cBack].B * (rList.Length - rChar)) / rList.Length;
+                    int iScore = (cValue.R - R) * (cValue.R - R) + (cValue.G - G) * (cValue.G - G) + (cValue.B - B) * (cValue.B - B);
+                    if (!(rChar > 1 && rChar < 4 && iScore > 50000)) // rule out too weird combinations
                     {
-                        bestHit[3] = iScore; //Score
-                        bestHit[0] = cFore;  //ForeColor
-                        bestHit[1] = cBack;  //BackColor
-                        bestHit[2] = rChar;  //Symbol
+                        if (iScore < bestHit[3])
+                        {
+                            bestHit[3] = iScore; //Score
+                            bestHit[0] = cFore;  //ForeColor
+                            bestHit[1] = cBack;  //BackColor
+                            bestHit[2] = rChar;  //Symbol
+                        }
                     }
                 }
             }
         }
+        Console.ForegroundColor = (ConsoleColor)bestHit[0];
+        Console.BackgroundColor = (ConsoleColor)bestHit[1];
+        Console.Write(rList[bestHit[2] - 1]);
     }
-    Console.ForegroundColor = (ConsoleColor)bestHit[0];
-    Console.BackgroundColor = (ConsoleColor)bestHit[1];
-    Console.Write(rList[bestHit[2] - 1]);
-}
-
-
 void ConsoleWriteImage(Bitmap source)
 {
     int sMax = 80;
@@ -82,10 +135,11 @@ void ConsoleWriteImage(Bitmap source)
             ConsoleWritePixel(bmpMax.GetPixel(j * 2, i));
             ConsoleWritePixel(bmpMax.GetPixel(j * 2 + 1, i));
         }
-        System.Console.WriteLine();
+        Console.WriteLine();
     }
     Console.ResetColor();
 }
 
 Bitmap bmpSrc = new(@"./forest.png", true);
 ConsoleWriteImage(bmpSrc);
+*/

@@ -31,3 +31,24 @@ C:\Users\tanulo\Documents\GitHub\ProjectRufus\projectOne\bin\Debug\net7.0\System
 C:\Users\tanulo\Documents\GitHub\ProjectRufus\projectOne\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\tanulo\Documents\GitHub\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.csproj.AssemblyReference.cache
 C:\Users\tanulo\Documents\GitHub\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.csproj.CopyComplete
+D:\Gémes Gergő\ProjectRufus\projectOne\bin\Debug\net7.0\projectOne.exe
+D:\Gémes Gergő\ProjectRufus\projectOne\bin\Debug\net7.0\projectOne.deps.json
+D:\Gémes Gergő\ProjectRufus\projectOne\bin\Debug\net7.0\projectOne.runtimeconfig.json
+D:\Gémes Gergő\ProjectRufus\projectOne\bin\Debug\net7.0\projectOne.dll
+D:\Gémes Gergő\ProjectRufus\projectOne\bin\Debug\net7.0\projectOne.pdb
+D:\Gémes Gergő\ProjectRufus\projectOne\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Gémes Gergő\ProjectRufus\projectOne\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\Gémes Gergő\ProjectRufus\projectOne\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Gémes Gergő\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.csproj.AssemblyReference.cache
+D:\Gémes Gergő\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.Properties.Resources.resources
+D:\Gémes Gergő\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.csproj.GenerateResource.cache
+D:\Gémes Gergő\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.GeneratedMSBuildEditorConfig.editorconfig
+D:\Gémes Gergő\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.AssemblyInfoInputs.cache
+D:\Gémes Gergő\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.AssemblyInfo.cs
+D:\Gémes Gergő\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.csproj.CoreCompileInputs.cache
+D:\Gémes Gergő\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.csproj.CopyComplete
+D:\Gémes Gergő\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.dll
+D:\Gémes Gergő\ProjectRufus\projectOne\obj\Debug\net7.0\refint\projectOne.dll
+D:\Gémes Gergő\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.pdb
+D:\Gémes Gergő\ProjectRufus\projectOne\obj\Debug\net7.0\projectOne.genruntimeconfig.cache
+D:\Gémes Gergő\ProjectRufus\projectOne\obj\Debug\net7.0\ref\projectOne.dll
